@@ -1,0 +1,21 @@
+.headerblock {
+    height: 295px;
+    background: linear-gradient(to right, #087990, #055160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1 {
+   color: #CFF4FC;
+   font-weight: 700;
+    font-size: 72px; 
+    margin: 0;
+}
+
+.p {
+    color: #CFF4FC;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+}

@@ -1,0 +1,94 @@
+.emoji {
+    background: #EDEEF3;
+    position: relative;
+}
+
+.emoji button {
+    font-size: 22px;
+    color: #ABB5BE;
+    width: 20px;
+    position: absolute; 
+    top: -11px;
+    left: 75%;
+    z-index: 9;
+    border: none;
+    background-color: #FFFFFF;
+    transform: translateX(-50%);
+}
+.input {
+    width: 60%;
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input::placeholder {
+    font-size: 24px;
+    line-height: 21px;
+    color: #ABB5BE;
+    
+}
+
+.input[type="text"] {
+    padding-left: 32px;
+    font-size: 24px;
+    line-height: 21px;
+
+}
+
+.sectioncard{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.cardfont {
+    
+  
+    margin: 5px auto;
+    width: 316px;
+    
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+}
+
+.cardsimbol {
+font-size: 45px;
+margin-top: 24px;
+margin-bottom: 18px;
+}
+
+.cardtitle {
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 28px;
+text-decoration-line: underline;
+color: #000000;
+}
+
+.cardkeywords {
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #3F444A;
+padding-left: 24px;
+padding-right: 24px;
+}
+@media(max-width: 768px) {
+    .emoji {
+        width: 100%;
+    }
+}
+
+
